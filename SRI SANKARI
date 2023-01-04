@@ -1,0 +1,165 @@
+EXERCISE No: 3
+
+Group 5
+
+1.	Calculate the Roots of Quadratic Equation
+
+Program
+
+import cmath
+a = float(input("Enter a :"))
+b = float(input("Enter b :"))
+c = float(input("Enter c :"))
+d = (b**2)-(4*a*c)
+set1 = (-b+cmath.sqrt(d))/(2*a)
+set2 = (-b+cmath.sqrt(d))/(2*a)
+print(set1,set2)
+
+Output:
+
+Enter a :8
+Enter b :5
+Enter c :9
+(-0.3125+1.0135796712641785j) (-0.3125+1.0135796712641785j)
+
+
+
+
+2.	Voting Eligibility
+
+Program
+
+n = int(input("Enter age:"))
+if (n>=18):
+    print("Eligible")
+else:
+   print("Not Eligible")
+
+Output
+
+Enter age: 37
+Eligible
+
+Enter age: 3
+Not Eligible
+
+
+
+
+
+
+
+
+
+
+3.	Read a character. Check whether it is upper or lower
+
+Program
+
+ch = input("Enter a character")
+if(ch >= 'A' and ch <= 'Z'):
+    ch = "U"
+    print(ch)
+elif(ch >= 'a' and ch <= 'z'):
+    ch = "l"
+    print(ch)
+
+Output:
+
+
+Enter a character : f
+l    
+
+Enter a character : F
+U
+
+
+
+
+
+
+
+ROUND 2
+Group 6
+
+1.	Print the days of the week with (1- 7)
+                  1-SUN, 2-MON......7- SAT
+
+Program
+
+a = int(input("Enter the integer:"))
+if(a==1):
+    print("Sunday")
+elif(a==2):
+    print("Monday")
+elif(a==3):
+    print("Tuesdat")
+elif(a==4):
+    print("Wednesday")
+elif(a==5):
+    print("Thursday")
+elif(a==6):
+    print("Friday")
+elif(a==7):
+    print("Saturday")
+else:
+    print("Enter a valid number")
+
+
+Output:
+
+Enter the integer:7
+Saturday
+
+Enter the integer:4
+Wednesday
+
+Enter the integer:9
+Enter a valid number
+
+2.	Smallest three numbers
+
+Program
+
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter second number:"))
+num3 = int(input("Enter third number:"))
+if((num1<num2) and (num1<3)):
+    print("smallest:",num1)
+elif((num2<num1) and (num2<num3)):
+    print("smallest:",num2)
+else:
+    print("smallest:",num3)
+
+
+
+Output:
+
+Enter first number: 6
+Enter second number: 9
+Enter third number: 0
+smallest: 0
+
+3.	Read a Character. if it is Lower , Print ** else print U
+
+Program
+ch = input("Enter a character")
+if(ch >= 'A' and ch <= 'Z'):
+    ch = "U"
+    print(ch)
+elif(ch >= 'a' and ch <= 'z'):
+    ch = "**"
+    print(ch)
+
+Output:
+
+Enter a characterg
+**
+Enter a characterS
+U
+
+
+
+
+
+
